@@ -1,0 +1,117 @@
+body{
+    background-image: url("../Images/bg.jpg");
+    color: white;
+}
+
+p{
+    font-family: cursive;
+    font-size: 140%;
+}
+
+img#dp{
+    border-radius: 50%;
+    max-width: 30%;
+    max-height: 30%;
+}
+
+img#cv{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+img#linkedin{
+    max-height: 10%;
+    max-width: 10%;
+}
+
+img#github
+{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+img#IIITH{
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+img#acc{
+    display: flex;
+    justify-content: center;
+    max-height: 20%;
+    max-width: 20%;
+    margin: auto;
+}
+
+#Navbar{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.Navitem{
+    display: inline;
+    font-size: x-large;
+    padding: 1%;
+    margin: 1%;
+}
+
+.Left{
+    display: flex;
+    justify-content: left;
+}
+
+.Center{
+    display: flex;
+    justify-content: center;
+}
+
+
+#skills{
+    background-color: white;
+    text-align: center;
+}
+
+.Devicon{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.BlackText{
+    color: black;
+}
+
+.Whitebg{
+    background-color: white;
+}
+
+.row {
+    float: left;
+    width: 17%;
+    padding: 1%;
+  }
+
+.WhiteText{
+    color: white;
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid white;
+}
+
+footer{
+    position: relative;
+    margin: auto;
+}
+
+

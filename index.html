@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./Styles/style.css">
+        <title>Pratik Haware</title>
+    </head>
+    <body onload="hideAll()">
+        <ul id="Navbar">
+            <li id="home" class="Navitem" onclick="load(this.id)">Home</li>
+            <li id="about" class="Navitem" onclick="load(this.id)">About</li>
+            <li id="education" class="Navitem" onclick="load(this.id)">Education</li>
+            <li id="experience" class="Navitem" onclick="load(this.id)">Experience</li>
+        </ul>
+        <img id="dp" src="https://media-exp1.licdn.com/dms/image/C4E03AQHHgh-oSLvKDw/profile-displayphoto-shrink_400_400/0/1632397514393?e=1637798400&v=beta&t=apuKTrZ5uBrROWi5TK8egfaJP6sXaardp9icoTVhMEY"
+        alt="Pratik Haware">
+        <a href="https://drive.google.com/file/d/1wDd67SASJUIJuCu_K_LCxRpJqa1NjuZD/view?usp=sharing">
+            <img id="cv" src="./Images/cv.png" alt="cv"/>
+        </a>
+        <a href="https://www.linkedin.com/in/pratik-haware-429460148/">
+            <img id="linkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" 
+                 alt="linkedin logo"/>
+        </a>
+        <a href="https://github.com/Pascuagon">
+            <img id="github" src="./Images/github.png" alt="github logo"/>
+        </a>
+        <h1>Pratik Haware</h1>
+        <div id="home" class="Hidden Center WhiteText">
+            <p>
+                Hi! Thank you so much for visiting my webpage. Click the tabs on navigation bar to know 
+                more about me.
+            </p>
+        </div>
+        <div id="about" class="Hidden Center">
+            <div id="about-desc" class="WhiteText">
+                <p>
+                    I am a Computer Science student, health freak, music and books lover.
+    
+                    I am currently pursuing my Master's degree in Computer Science from IIIT Hyderabad. I completed
+                    my BTech from Mumbai University. In my free time, I workout (stopped now due to the pandemic), 
+                    read books, listen to music and work on my personal projects.
+    
+                </p>
+            </div>
+            <div id="skills" class="BlackText Whitebg">
+                <h2>Skills</h2>
+                <a href="https://devdocs.io/c/">
+                    <img class="Devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                    alt="C logo" />
+                </a>
+                <a href="https://isocpp.org/">
+                    <img class="Devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                        alt="C++ logo" />
+                </a>
+                <a href="https://www.python.org/">
+                    <img class="Devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
+                        alt="Python logo"/>
+                </a>
+                <a href="https://html5.org/">
+                    <img class="Devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" 
+                        alt="HTML5 logo"/>
+                </a>
+                <a href="https://www.java.com/en/">
+                    <img class="Devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                        alt="Java logo" />
+                </a>
+                <a href="https://www.javascript.com/">
+                    <img class="Devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="JS logo" />                  
+                </a>                 
+            </div>
+        </div>
+        <div id="education" class="Hidden Center">
+            <div class="Whitebg BlackText">
+                <img id="IIITH" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/International_Institute_of_Information_Technology%2C_Hyderabad_logo.png/260px-International_Institute_of_Information_Technology%2C_Hyderabad_logo.png"
+                    alt="IIIT-H logo">
+            <h2>Currently pursuing MTech CSE at <a href="https://www.iiit.ac.in/">IIIT-H</a></h2>
+            </div>
+            <table class="WhiteText">
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Years</th>
+                </tr>
+                <tr>
+                    <td>MTech</td>
+                    <td>IIIT Hyderabad</td>
+                    <td>2021 - 2023</td>
+                </tr>
+                <tr>
+                    <td>BE</td>
+                    <td>Mumbai University</td>
+                    <td>2013 - 2017</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">High School</td>
+                    <td>TP Bhatia Junior College</td>
+                    <td>2011 - 2013</td>
+                </tr>
+                <tr>
+                    <td>NL Dalmia High School</td>
+                    <td>1998 - 2011</td>
+                </tr>
+            </table>
+        </div>
+        <div id="experience" class="Hidden Center Whitebg BlackText">
+            <h2>Worked at <a href="https://www.accenture.com/in-en">Accenture</a></h2>
+            <img id="acc" src="https://www.accenture.com/t20200701T040724Z__w__/us-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/Hero/12/Accenture-Logo-768x768.jpg"
+                alt="Accenture Logo" />
+        </div>
+        <footer id="time" class="WhiteText" onload="footer()">
+        </footer>
+        <script src="./Scripts/script.js"></script>
+    </body>
+</html>
