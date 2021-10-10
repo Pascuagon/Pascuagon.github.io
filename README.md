@@ -1,6 +1,6 @@
 # SSD Assignment 2 Part A
 
-Site hosted on : //enter URL here
+Site hosted on : [https://pascuagon.github.io/]https://pascuagon.github.io/
 
 Below I have explained how the requirements are fulfilled
 
